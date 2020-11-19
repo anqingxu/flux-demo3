@@ -142,3 +142,7 @@ spec:
         # - --helm-repository-import=v2:/root/.helm/repository/repositories.yaml,v3:/root/.helm/repository/repositories.yaml
         # Enabled Helm versions that can be targeted by a `HelmRelease`.
         - --enabled-helm-versions=v3
+        
+        - --charts-sync-interval=30s
+        
+        - --git-poll-interval=30s
